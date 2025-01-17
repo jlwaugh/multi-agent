@@ -1,6 +1,7 @@
 {
   "name": "multi-agent",
   "version": "0.0.1",
+  "namespace": "buildagents.near",
   "description": "A system orchestrator that helps user agents navigate NEAR AI Hub registry to find and interact with the most helpful agents for their needs.",
   "category": "agent",
   "tags": [

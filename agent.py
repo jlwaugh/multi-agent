@@ -42,7 +42,7 @@ class AgentSelector:
                 Instructions:
                 1. Carefully read through all agents
                 2. Consider name, description, tags, recency, and stars
-                3. Evaluate the details 
+                3. Evaluate the details
                 4. Identify the agent most suited to handle the query
                 5. Provide your reasoning
                 6. Output in this exact JSON format:
@@ -65,7 +65,7 @@ class AgentSelector:
                     result = json.loads(response)
 
                     selected_agent = next(
-                        (agent for agent in agents 
+                        (agent for agent in agents
                          if agent.name == result['selected_agent_name'] 
                          and agent.namespace == result['selected_agent_namespace']),
                         None
